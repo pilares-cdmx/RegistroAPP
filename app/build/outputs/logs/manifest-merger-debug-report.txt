@@ -1,0 +1,194 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:2:1-60:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\8643c132f715e438bd9a7d6dda6638fd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\4d02eb4d0147ba707a72ac08f9ff28f3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\cd5caf97d0d7ef74775861836c05296f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\6010be2d3ee217eb9ff0687c3ea8967a\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\f770c251fec0dbb5579699eb39cec8b9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\8dc6a241dd672c313320f75640ba2325\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\95766b56229241e2b66d4706b69d45bc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\4a94a04c0a74174682bd37fee9e6638e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\121c7b4d3d7d0e849ba8eb92c9247226\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\d70f61eabaca289f67a1d08f52a2044d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\9a12fa7406bb0b9988acd6d22f012b2b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\ff10d8eb4f38346697eae2f5bcccedab\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\5bebb752016d3030286804431bfe3985\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\c17384faf8d7619ee789278ec8c13bb2\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\078a6c8763ab2519ca3cdb601a5e133b\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d207468cd8be531c64485389e2e408e5\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\02ff240caacc3e66ebe2f7b4f5b7bdb9\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:2:1-60:12
+	package
+		ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:3:5-38
+		INJECTED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:2:1-60:12
+		INJECTED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:2:1-60:12
+		INJECTED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:5:5-58:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\6010be2d3ee217eb9ff0687c3ea8967a\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\6010be2d3ee217eb9ff0687c3ea8967a\AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:11:9-65
+activity#cdmx.sedu.registroapp_1.FullscreenActivity8
+ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:12:9-16:63
+	android:label
+		ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:15:13-63
+	android:configChanges
+		ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:14:13-74
+	android:theme
+		ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:16:13-51
+	android:name
+		ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:13:13-48
+activity#cdmx.sedu.registroapp_1.FullscreenActivity7
+ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:17:9-21:54
+	android:label
+		ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:20:13-63
+	android:configChanges
+		ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:19:13-74
+	android:theme
+		ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:21:13-51
+	android:name
+		ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:18:13-48
+activity#cdmx.sedu.registroapp_1.FullscreenActivity6
+ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:22:9-26:54
+	android:label
+		ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:25:13-63
+	android:configChanges
+		ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:24:13-74
+	android:theme
+		ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:26:13-51
+	android:name
+		ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:23:13-48
+activity#cdmx.sedu.registroapp_1.FullscreenActivity5
+ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:27:9-31:54
+	android:label
+		ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:30:13-63
+	android:configChanges
+		ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:29:13-74
+	android:theme
+		ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:31:13-51
+	android:name
+		ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:28:13-48
+activity#cdmx.sedu.registroapp_1.FullscreenActivity4
+ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:32:9-36:54
+	android:label
+		ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:35:13-63
+	android:configChanges
+		ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:34:13-74
+	android:theme
+		ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:36:13-51
+	android:name
+		ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:33:13-48
+activity#cdmx.sedu.registroapp_1.FullscreenActivity3
+ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:37:9-41:54
+	android:label
+		ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:40:13-45
+	android:configChanges
+		ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:39:13-74
+	android:theme
+		ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:41:13-51
+	android:name
+		ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:38:13-48
+activity#cdmx.sedu.registroapp_1.FullscreenActivity2
+ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:42:9-46:54
+	android:label
+		ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:45:13-45
+	android:configChanges
+		ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:44:13-74
+	android:theme
+		ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:46:13-51
+	android:name
+		ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:43:13-48
+activity#cdmx.sedu.registroapp_1.FullscreenActivity
+ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:47:9-57:20
+	android:label
+		ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:50:13-45
+	android:configChanges
+		ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:49:13-74
+	android:theme
+		ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:51:13-51
+	android:name
+		ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:48:13-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:52:13-56:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:53:17-69
+	android:name
+		ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:53:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:55:17-77
+	android:name
+		ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml:55:27-74
+uses-sdk
+INJECTED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.1] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\8643c132f715e438bd9a7d6dda6638fd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\8643c132f715e438bd9a7d6dda6638fd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\4d02eb4d0147ba707a72ac08f9ff28f3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\4d02eb4d0147ba707a72ac08f9ff28f3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\cd5caf97d0d7ef74775861836c05296f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\cd5caf97d0d7ef74775861836c05296f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\6010be2d3ee217eb9ff0687c3ea8967a\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\6010be2d3ee217eb9ff0687c3ea8967a\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\f770c251fec0dbb5579699eb39cec8b9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\f770c251fec0dbb5579699eb39cec8b9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\8dc6a241dd672c313320f75640ba2325\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\8dc6a241dd672c313320f75640ba2325\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\95766b56229241e2b66d4706b69d45bc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\95766b56229241e2b66d4706b69d45bc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\4a94a04c0a74174682bd37fee9e6638e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\4a94a04c0a74174682bd37fee9e6638e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\121c7b4d3d7d0e849ba8eb92c9247226\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\121c7b4d3d7d0e849ba8eb92c9247226\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\d70f61eabaca289f67a1d08f52a2044d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\d70f61eabaca289f67a1d08f52a2044d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\9a12fa7406bb0b9988acd6d22f012b2b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\9a12fa7406bb0b9988acd6d22f012b2b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\ff10d8eb4f38346697eae2f5bcccedab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\ff10d8eb4f38346697eae2f5bcccedab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\5bebb752016d3030286804431bfe3985\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\5bebb752016d3030286804431bfe3985\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\c17384faf8d7619ee789278ec8c13bb2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\c17384faf8d7619ee789278ec8c13bb2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\078a6c8763ab2519ca3cdb601a5e133b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\078a6c8763ab2519ca3cdb601a5e133b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d207468cd8be531c64485389e2e408e5\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d207468cd8be531c64485389e2e408e5\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\02ff240caacc3e66ebe2f7b4f5b7bdb9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\COORDINACION ESTATAL\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\02ff240caacc3e66ebe2f7b4f5b7bdb9\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\COORDINACION ESTATAL\Aplicaciones\RegistroAPP\app\src\main\AndroidManifest.xml

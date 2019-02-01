@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context=".FullscreenActivity4">
+
+    <TextView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:keepScreenOn="true"
+        android:paddingTop="130dp"
+        android:text="@string/ciberescuela"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+
+    <LinearLayout
+        android:id="@+id/fullscreen_content_controls_3"
+        style="?metaButtonBarStyle"
+        android:layout_width="300dp"
+        android:layout_height="71dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginRight="-300dp"
+        android:layout_marginBottom="80dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+        <Button
+            android:id="@+id/btnInauguracionLayout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/confirmar"
+            android:textSize="24dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fullscreen_content_controls_2"
+        style="?metaButtonBarStyle"
+        android:layout_width="302dp"
+        android:layout_height="74dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginLeft="-300dp"
+        android:layout_marginBottom="80dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+        <Button
+            android:id="@+id/btnEstudianteLayout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/volver"
+            android:textSize="24dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fullscreen_content_controls"
+        style="?metaButtonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="@drawable/cenefa"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fullscreen_content_controls_1"
+        style="?metaButtonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="168dp"
+        android:layout_marginTop="-30dp"
+        android:background="@drawable/cenfa"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent"/>
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="183dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="170dp"
+        android:text="Alfabetización"
+        android:textSize="20dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="210dp"
+        android:text="Primaria"
+        android:textSize="20dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="250dp"
+        android:text="Secundaria"
+        android:textSize="20dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="290dp"
+        android:text="BADI"
+        android:textSize="20dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="330dp"
+        android:text="Prepa en línea SEP"
+        android:textSize="20dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="380dp"
+        android:layout_marginTop="170dp"
+        android:text="CENEVAL"
+        android:textSize="20dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="380dp"
+        android:layout_marginTop="210dp"
+        android:text="COLBACH"
+        android:textSize="20dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="380dp"
+        android:layout_marginTop="250dp"
+        android:text="Asesorias Primaria"
+        android:textSize="20dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="380dp"
+        android:layout_marginTop="290dp"
+        android:text="AsesoriasSecundaria"
+        android:textSize="20dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="380dp"
+        android:layout_marginTop="330dp"
+        android:text="Asesorias bachillerato"
+        android:textSize="20dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="660dp"
+        android:layout_marginTop="170dp"
+        android:text="Asesorias  licenciatura"
+        android:textSize="20dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="660dp"
+        android:layout_marginTop="210dp"
+        android:text="Talleres de habilidades cógnitivas"
+        android:textSize="20dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton15"
+        android:layout_width="389dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="660dp"
+        android:layout_marginTop="250dp"
+        android:text="Talleres de habilidades emocionales"
+        android:textSize="20dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="660dp"
+        android:layout_marginTop="290dp"
+        android:text="Talleres de habilidades dígitales"
+        android:textSize="20dp" />
+
+</FrameLayout>

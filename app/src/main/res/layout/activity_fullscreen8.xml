@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context=".FullscreenActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <android.support.design.widget.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_margin="250dp"
+        android:hint="Nombre completo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="315dp"
+        android:layout_marginTop="140dp"
+        android:text="Por favor llena los siguientes campos"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:keepScreenOn="true"
+        android:paddingTop="60dp"
+        android:text="@string/inauguracion"
+        android:textColor="#000"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+
+    <LinearLayout
+        android:id="@+id/fullscreen_content_controls_2"
+        style="?metaButtonBarStyle"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginLeft="340dp"
+        android:layout_marginBottom="358dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+        <Button
+            android:id="@+id/btnEstudianteLayout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/enviar"
+            android:textSize="24dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fullscreen_content_controls"
+        style="?metaButtonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="@drawable/cenefa"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fullscreen_content_controls_1"
+        style="?metaButtonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="168dp"
+        android:layout_marginTop="-30dp"
+        android:background="@drawable/cenfa"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+    </LinearLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.design.widget.TextInputLayout>
+
+    <RadioGroup
+        android:layout_width="175dp"
+        android:layout_height="68dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="180dp">
+
+        <RadioButton
+            android:id="@+id/radioButton8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Femenino" />
+
+        <RadioButton
+            android:id="@+id/radioButton6"
+            android:layout_width="258dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Masculino" />
+    </RadioGroup>
+
+</FrameLayout>

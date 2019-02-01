@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">RegistroAPP</string>
+
+    <string name="dummy_button_1">Inauguración</string>
+    <string name="dummy_button">Soy Estudiante</string>
+    <string name="volver">Volver / Más actividades</string>
+    <string name="confirmar">Finalizar</string>
+    <string name="ciberescuela">CIBERESCUELA</string>
+    <string name="fomento">AUTONOMÍA ECONÓMICA</string>
+    <string name="deporte">DEPORTES</string>
+    <string name="cultura">CULTURA</string>
+    <string name="enviar">ENVIAR</string>
+
+    <string name="dummy_content">Elige una opción</string>
+    <string name="bienvenido">BIENVENIDO</string>
+    <string name="inauguracion">Bienvenido a la Inauguración</string>
+    <string name="hoy">Hoy nos visitas a:</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+
+    <string name="title_activity_fullscreen3">FullscreenActivity3</string>
+
+    <string name="title_activity_fullscreen4">FullscreenActivity4</string>
+
+    <string name="title_activity_fullscreen5">FullscreenActivity5</string>
+
+    <string name="title_activity_fullscreen6">FullscreenActivity6</string>
+
+    <string name="title_activity_fullscreen7">FullscreenActivity7</string>
+
+    <string name="title_activity_fullscreen8">FullscreenActivity8</string>
+</resources>

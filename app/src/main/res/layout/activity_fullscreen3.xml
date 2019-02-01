@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context=".FullscreenActivity3">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="465dp"
+        android:layout_marginTop="330dp"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:keepScreenOn="true"
+        android:paddingTop="140dp"
+        android:text="@string/hoy"
+        android:textColor="#000"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <LinearLayout
+        android:id="@+id/fullscreen_content_controls_5"
+        style="?metaButtonBarStyle"
+        android:layout_width="287dp"
+        android:layout_height="79dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginLeft="-250dp"
+        android:layout_marginBottom="140dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+        <Button
+            android:id="@+id/btnFomento"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/fomento"
+            android:textSize="24dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fullscreen_content_controls_2"
+        style="?metaButtonBarStyle"
+        android:layout_width="289dp"
+        android:layout_height="81dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginLeft="-250dp"
+        android:layout_marginBottom="280dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+        <Button
+            android:id="@+id/btnCultura"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/cultura"
+            android:textSize="24dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fullscreen_content_controls_3"
+        style="?metaButtonBarStyle"
+        android:layout_width="301dp"
+        android:layout_height="81dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginLeft="250dp"
+        android:layout_marginBottom="140dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+        <Button
+            android:id="@+id/btnCiber"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/ciberescuela"
+            android:textSize="24dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fullscreen_content_controls_4"
+        style="?metaButtonBarStyle"
+        android:layout_width="296dp"
+        android:layout_height="81dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginLeft="250dp"
+        android:layout_marginBottom="280dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+        <Button
+            android:id="@+id/btnDeporte"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/deporte"
+            android:textSize="24dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fullscreen_content_controls"
+        style="?metaButtonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="@drawable/cenefa"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fullscreen_content_controls_1"
+        style="?metaButtonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="168dp"
+        android:layout_marginTop="-30dp"
+        android:background="@drawable/cenfa"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+    </LinearLayout>
+
+</FrameLayout>

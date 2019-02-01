@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cdmx.sedu.registroapp_1"
+    android:targetSandboxVersion="2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="27" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        <activity
+            android:name="cdmx.sedu.registroapp_1.FullscreenActivity8"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_fullscreen8"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name="cdmx.sedu.registroapp_1.FullscreenActivity7"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_fullscreen7"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name="cdmx.sedu.registroapp_1.FullscreenActivity6"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_fullscreen6"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name="cdmx.sedu.registroapp_1.FullscreenActivity5"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_fullscreen5"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name="cdmx.sedu.registroapp_1.FullscreenActivity4"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_fullscreen4"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name="cdmx.sedu.registroapp_1.FullscreenActivity3"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name="cdmx.sedu.registroapp_1.FullscreenActivity2"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name="cdmx.sedu.registroapp_1.FullscreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="cdmx.sedu.registroapp_1.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

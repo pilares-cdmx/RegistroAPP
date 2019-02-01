@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context=".FullscreenActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <TextView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:keepScreenOn="true"
+        android:paddingTop="160dp"
+        android:text="@string/dummy_content"
+        android:textColor="#000"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+
+    <LinearLayout
+        android:id="@+id/fullscreen_content_controls_3"
+        style="?metaButtonBarStyle"
+        android:layout_width="300dp"
+        android:layout_height="71dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="180dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+        <Button
+            android:id="@+id/btnInauguracionLayout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/dummy_button_1"
+            android:textSize="24dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fullscreen_content_controls_2"
+        style="?metaButtonBarStyle"
+        android:layout_width="302dp"
+        android:layout_height="74dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="270dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+        <Button
+            android:id="@+id/btnEstudianteLayout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/dummy_button"
+            android:textSize="24dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fullscreen_content_controls"
+        style="?metaButtonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="@drawable/cenefa"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fullscreen_content_controls_1"
+        style="?metaButtonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="168dp"
+        android:layout_marginTop="-30dp"
+        android:background="@drawable/cenfa"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent"/>
+
+</FrameLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context=".FullscreenActivity4">
+
+    <TextView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:keepScreenOn="true"
+        android:paddingTop="130dp"
+        android:text="@string/deporte"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+
+    <LinearLayout
+        android:id="@+id/fullscreen_content_controls_3"
+        style="?metaButtonBarStyle"
+        android:layout_width="300dp"
+        android:layout_height="71dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginRight="-300dp"
+        android:layout_marginBottom="90dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+        <Button
+            android:id="@+id/btnInauguracionLayout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/confirmar"
+            android:textSize="24dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fullscreen_content_controls_2"
+        style="?metaButtonBarStyle"
+        android:layout_width="302dp"
+        android:layout_height="74dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginLeft="-300dp"
+        android:layout_marginBottom="90dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+        <Button
+            android:id="@+id/btnEstudianteLayout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/volver"
+            android:textSize="24dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fullscreen_content_controls"
+        style="?metaButtonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="@drawable/cenefa"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fullscreen_content_controls_1"
+        style="?metaButtonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="168dp"
+        android:layout_marginTop="-30dp"
+        android:background="@drawable/cenfa"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent"/>
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="138dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="450dp"
+        android:layout_marginTop="200dp"
+        android:text="Básketbol"
+        android:textSize="20dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="450dp"
+        android:layout_marginTop="260dp"
+        android:text="Fútbol"
+        android:textSize="20dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="450dp"
+        android:layout_marginTop="310dp"
+        android:text="Acondicionamiento Físico"
+        android:textSize="20dp" />
+
+</FrameLayout>
