@@ -1,4 +1,4 @@
-#Fri Feb 01 11:42:15 CST 2019
+#Tue Feb 05 12:38:42 CST 2019
 base.0=C\:\\Users\\COORDINACION ESTATAL\\Aplicaciones\\RegistroAPP\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\5
 path.0=classes.dex
 renamed.0=classes.dex
