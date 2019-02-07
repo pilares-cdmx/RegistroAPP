@@ -154,7 +154,7 @@ public class FullscreenActivity2 extends AppCompatActivity {
                         });
                 AlertDialog titulo = aviso.create();
 
-                titulo.setTitle("Hola! "+nomb);
+                titulo.setTitle("Hola! ");
                 titulo.show();
             }
         });

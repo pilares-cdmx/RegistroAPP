@@ -20,7 +20,7 @@
             android:layout_width="434dp"
             android:layout_height="53dp"
             android:layout_marginLeft="50dp"
-            android:hint="EJ. Richard Wagner" />edit
+            android:hint="EJ. Álvaro Obregón" />edit
     </android.support.design.widget.TextInputLayout>
 
     <TextView

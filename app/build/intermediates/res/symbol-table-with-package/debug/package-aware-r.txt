@@ -838,7 +838,6 @@ id btnDeporte
 id btnEstudianteLayout
 id btnFomento
 id btnInauguracionLayout
-id button
 id buttonPanel
 id cancel_action
 id center
@@ -936,7 +935,11 @@ id radioButton13
 id radioButton14
 id radioButton15
 id radioButton16
+id radioButton17
+id radioButton18
+id radioButton19
 id radioButton2
+id radioButton20
 id radioButton3
 id radioButton4
 id radioButton5

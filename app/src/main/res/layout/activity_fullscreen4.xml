@@ -89,29 +89,38 @@
 
     <RadioButton
         android:id="@+id/radioButton"
-        android:layout_width="138dp"
+        android:layout_width="357dp"
         android:layout_height="42dp"
-        android:layout_marginLeft="450dp"
+        android:layout_marginLeft="380dp"
         android:layout_marginTop="200dp"
-        android:text="Básketbol"
+        android:text="Escuela técnico deportiva Fútbol"
         android:textSize="20dp" />
 
     <RadioButton
         android:id="@+id/radioButton2"
-        android:layout_width="104dp"
+        android:layout_width="387dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="450dp"
+        android:layout_marginLeft="380dp"
         android:layout_marginTop="260dp"
-        android:text="Fútbol"
+        android:text="Escuela técnico deportiva Básquetbol"
         android:textSize="20dp" />
 
     <RadioButton
         android:id="@+id/radioButton3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="450dp"
+        android:layout_marginLeft="380dp"
         android:layout_marginTop="310dp"
-        android:text="Acondicionamiento Físico"
+        android:text="Escuela técnico deportiva Volibol"
+        android:textSize="20dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="380dp"
+        android:layout_marginTop="360dp"
+        android:text="Activación Físisca"
         android:textSize="20dp" />
 
 </FrameLayout>

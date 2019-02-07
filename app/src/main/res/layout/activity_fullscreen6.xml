@@ -89,29 +89,165 @@
 
     <RadioButton
         android:id="@+id/radioButton"
-        android:layout_width="138dp"
+        android:layout_width="223dp"
         android:layout_height="42dp"
-        android:layout_marginLeft="450dp"
-        android:layout_marginTop="200dp"
-        android:text="Cine"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="170dp"
+        android:text="Teatro"
         android:textSize="20dp" />
 
     <RadioButton
         android:id="@+id/radioButton2"
-        android:layout_width="104dp"
+        android:layout_width="143dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="450dp"
-        android:layout_marginTop="260dp"
-        android:text="Pintura"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="210dp"
+        android:text="Danza"
         android:textSize="20dp" />
 
     <RadioButton
         android:id="@+id/radioButton3"
+        android:layout_width="301dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="250dp"
+        android:text="Ballet"
+        android:textSize="20dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="290dp"
+        android:text="Performance"
+        android:textSize="20dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="450dp"
-        android:layout_marginTop="310dp"
-        android:text="Teatro"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="330dp"
+        android:text="Música"
         android:textSize="20dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="170dp"
+        android:text="Encuadernación"
+        android:textSize="20dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton9"
+        android:layout_width="281dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="210dp"
+        android:text="Reciclake"
+        android:textSize="20dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="250dp"
+        android:text="Artes plásticas"
+        android:textSize="20dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="290dp"
+        android:text="Artes gráficas"
+        android:textSize="20dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="330dp"
+        android:text="Fotografía"
+        android:textSize="20dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="530dp"
+        android:layout_marginTop="170dp"
+        android:text="Video documental"
+        android:textSize="20dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="530dp"
+        android:layout_marginTop="210dp"
+        android:text="Libro club"
+        android:textSize="20dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="530dp"
+        android:layout_marginTop="250dp"
+        android:text="Cine club"
+        android:textSize="20dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="530dp"
+        android:layout_marginTop="290dp"
+        android:text="Taller de huerto"
+        android:textSize="20dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="530dp"
+        android:layout_marginTop="330dp"
+        android:text="Arte y biología"
+        android:textSize="20dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="760dp"
+        android:layout_marginTop="170dp"
+        android:text="Stop motion"
+        android:textSize="20dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="760dp"
+        android:layout_marginTop="210dp"
+        android:text="Cerámica"
+        android:textSize="20dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="760dp"
+        android:layout_marginTop="250dp"
+        android:text="Radio"
+        android:textSize="20dp" />
+
 
 </FrameLayout>
