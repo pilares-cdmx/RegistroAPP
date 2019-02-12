@@ -7,8 +7,10 @@ import java.util.concurrent.atomic.AtomicInteger;
 import cdmx.sedu.registroapp_1.models.Actividades;
 import cdmx.sedu.registroapp_1.models.Usuario;
 import io.realm.Realm;
+import io.realm.RealmConfiguration;
 import io.realm.RealmObject;
 import io.realm.RealmResults;
+import io.realm.RealmConfiguration.Builder;
 
 /**
  * @author NumPoet
@@ -22,10 +24,21 @@ public class MyApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+        setUpRealmConfig();
+
         Realm realm = Realm.getDefaultInstance();
         UsuarioID = getIdByTable(realm,  Usuario.class);
         ActividadesID = getIdByTable(realm, Actividades.class);
         realm.close();
+
+    }
+
+    private void setUpRealmConfig(){
+        RealmConfiguration config = new RealmConfiguration
+                .Builder()
+                .deleteRealmIfMigrationNeeded()
+                .build();
+        Realm.setDefaultConfiguration(config);
 
     }
 
