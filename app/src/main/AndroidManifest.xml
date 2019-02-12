@@ -10,42 +10,42 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
-            android:name=".FullscreenActivity8"
+            android:name=".activities.FullscreenActivity8"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_fullscreen8"
             android:theme="@style/FullscreenTheme"></activity>
         <activity
-            android:name=".FullscreenActivity7"
+            android:name=".activities.FullscreenActivity7"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_fullscreen7"
             android:theme="@style/FullscreenTheme" />
         <activity
-            android:name=".FullscreenActivity6"
+            android:name=".activities.FullscreenActivity6"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_fullscreen6"
             android:theme="@style/FullscreenTheme" />
         <activity
-            android:name=".FullscreenActivity5"
+            android:name=".activities.FullscreenActivity5"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_fullscreen5"
             android:theme="@style/FullscreenTheme" />
         <activity
-            android:name=".FullscreenActivity4"
+            android:name=".activities.FullscreenActivity4"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_fullscreen4"
             android:theme="@style/FullscreenTheme" />
         <activity
-            android:name=".FullscreenActivity3"
+            android:name=".activities.FullscreenActivity3"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name"
             android:theme="@style/FullscreenTheme" />
         <activity
-            android:name=".FullscreenActivity2"
+            android:name=".activities.FullscreenActivity2"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name"
             android:theme="@style/FullscreenTheme" />
         <activity
-            android:name=".FullscreenActivity"
+            android:name=".activities.FullscreenActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name"
             android:theme="@style/FullscreenTheme">
