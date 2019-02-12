@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/RegistroAPP.iml" filepath="$PROJECT_DIR$/RegistroAPP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Add-persistence.iml" filepath="$PROJECT_DIR$/Add-persistence.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
