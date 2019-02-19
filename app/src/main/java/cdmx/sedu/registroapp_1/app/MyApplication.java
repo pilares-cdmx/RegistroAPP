@@ -5,12 +5,11 @@ import android.app.Application;
 import java.util.concurrent.atomic.AtomicInteger;
 
 import cdmx.sedu.registroapp_1.models.Actividades;
-import cdmx.sedu.registroapp_1.models.Usuario;
+import cdmx.sedu.registroapp_1.models.Usuarios;
 import io.realm.Realm;
 import io.realm.RealmConfiguration;
 import io.realm.RealmObject;
 import io.realm.RealmResults;
-import io.realm.RealmConfiguration.Builder;
 
 /**
  * @author NumPoet
@@ -27,7 +26,7 @@ public class MyApplication extends Application {
         setUpRealmConfig();
 
         Realm realm = Realm.getDefaultInstance();
-        UsuarioID = getIdByTable(realm,  Usuario.class);
+        UsuarioID = getIdByTable(realm,  Usuarios.class);
         ActividadesID = getIdByTable(realm, Actividades.class);
         realm.close();
 

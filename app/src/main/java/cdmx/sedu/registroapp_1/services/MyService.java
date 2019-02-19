@@ -9,6 +9,7 @@ import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.IBinder;
+import android.provider.ContactsContract;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.NotificationCompat;
@@ -275,7 +276,7 @@ public class MyService extends Service {
                         realm.executeTransaction(new Realm.Transaction() {
                             @Override
                             public void execute(@NonNull Realm realm) {
-                                RealmResults<Phone> result = realm.where(Phone.class).equalTo("id", id)
+                                RealmResults<ContactsContract.CommonDataKinds.Phone> result = realm.where(ContactsContract.CommonDataKinds.Phone.class).equalTo("id", id)
                                         .findAll();
                                 result.deleteAllFromRealm();
                             }
